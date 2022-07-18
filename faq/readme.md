@@ -26,7 +26,7 @@ setup.ilm.overwrite: true
 </p>
 
 
-## 2
+## 3
 
 ```
 PS C:\Heartbeat> .\install-service-heartbeat.ps1
@@ -41,4 +41,23 @@ No linha:1 caractere:1
  
 ```
 
+
+### Solucao
 https://docs.microsoft.com/pt-br/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2
+
+```
+PS C:\Heartbeat> powershell.exe -ExecutionPolicy Unrestricted
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+Experimente a nova plataforma cruzada PowerShell https://aka.ms/pscore6
+
+PS C:\Heartbeat> .\install-service-heartbeat.ps1
+
+Status   Name               DisplayName
+------   ----               -----------
+Stopped  heartbeat          heartbeat
+
+
+PS C:\Heartbeat>
+```
