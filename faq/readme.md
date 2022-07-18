@@ -40,3 +40,5 @@ No linha:1 caractere:1
     + FullyQualifiedErrorId : UnauthorizedAccess
  
 ```
+
+https://docs.microsoft.com/pt-br/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2
