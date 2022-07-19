@@ -71,3 +71,7 @@ PS C:\Heartbeat>
 ## 4
 
 ```server.publicBaseUrl: "https://<dominio>.com.br:5601"```
+
+```#server.name: "your-hostname"```
+
+```elasticsearch.hosts: ["http://localhost:9200"]```
