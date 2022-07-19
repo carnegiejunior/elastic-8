@@ -81,10 +81,10 @@ PS C:\Heartbeat>
 https://www.elastic.co/guide/en/elasticsearch/reference/current/bootstrap-checks.html#single-node-discovery
 
 in elasticsearch.yml
-
-  network.host: 0.0.0.0
-  discovery.type: single-node
-
+```
+network.host: 0.0.0.0
+discovery.type: single-node
+```
 and make sure you have cluster.initial_master_nodes off
 
-  # cluster.initial_master_nodes: ["node-1", "node-2"]
+```# cluster.initial_master_nodes: ["node-1", "node-2"]```
