@@ -98,5 +98,5 @@ and make sure you have cluster.initial_master_nodes off
 
 <p align="left">
   <a href="" rel="noopener">
- <img  height=200px src="https://github.com/lourranio/elastic-8/blob/6992d06dd0c5be4ed0ee5af4304cef7243ba5352/faq/img/http_ca.PNG" alt="http_ca.crt"></a>
+ <img  height=600px src="https://github.com/lourranio/elastic-8/blob/6992d06dd0c5be4ed0ee5af4304cef7243ba5352/faq/img/http_ca.PNG" alt="http_ca.crt"></a>
 </p>
