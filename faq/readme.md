@@ -75,6 +75,11 @@ PS C:\Heartbeat>
 * ```server.name: "your-hostname"```
 
 * ```elasticsearch.hosts: ["http://localhost:9200"]```
+ou
+```elasticsearch.hosts: ["https://localhost:9200"]```
+
+* ```#elasticsearch.ssl.verificationMode: none```
+(irá ignorar os avisos do certificado q foi auto gerado)
 
 
 ## 5 discovery.type: single-node
