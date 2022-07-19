@@ -66,3 +66,8 @@ PS C:\Heartbeat>
   <a href="" rel="noopener">
  <img  height=200px src="https://github.com/lourranio/elastic-8/blob/19c0bc3de8e994bd63533b6fce7900ead6cc8932/faq/img/solucao.PNG" alt="ssl.ca_trusted_fingerprint"></a>
 </p>
+
+
+## 4
+
+```server.publicBaseUrl: "https://<dominio>.com.br:5601"```
