@@ -107,8 +107,9 @@ https://codebeautify.org/yaml-validator
 ## 7
 Certbot
 
-'https://discuss.elastic.co/t/issues-with-certbot-certificates-and-kibana/282270'
+```https://discuss.elastic.co/t/issues-with-certbot-certificates-and-kibana/282270```
 
+```
 xpack.security.enabled: true
 xpack.security.transport.ssl.enabled: true
 xpack.security.transport.ssl.verification_mode: certificate
@@ -119,3 +120,4 @@ xpack.security.http.ssl.enabled: true
 xpack.security.http.ssl.verification_mode: certificate
 xpack.security.http.ssl.key: /etc/elasticsearch/certs/privkey1.pem
 xpack.security.http.ssl.certificate: /etc/elasticsearch/certs/cert1.pem
+```
