@@ -121,3 +121,13 @@ xpack.security.http.ssl.verification_mode: certificate
 xpack.security.http.ssl.key: /etc/elasticsearch/certs/privkey1.pem
 xpack.security.http.ssl.certificate: /etc/elasticsearch/certs/cert1.pem
 ```
+
+## 8 
+"  Unable to retrieve version information from Elasticsearch nodes. "
+
+* 1 Solucao : Usuario kibana errado. Correto. kibana_system
+  
+  Rest password for kibana_system user
+	```/usr/share/elasticsearch/bin/elasticsearch-reset-password -u kibana_system```
+  
+* 2 Solucao : elasticsearch.hosts: ["https://localhost:9200"] . Add um S  em httpS.
