@@ -151,3 +151,9 @@ Overwriting ILM policy is disabled. Set `setup.ilm.overwrite: true` for enabling
 
 Index setup finished.
 ```
+
+Solucao: editar o arquivo : 
+```vim /etc/heartbeat/heartbeat.yml``` 
+
+e adicionar o parametro na ultima linha 
+```setup.ilm.overwrite: true```
