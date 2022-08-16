@@ -131,3 +131,14 @@ xpack.security.http.ssl.certificate: /etc/elasticsearch/certs/cert1.pem
 	```/usr/share/elasticsearch/bin/elasticsearch-reset-password -u kibana_system```
   
 * 2 Solucao : elasticsearch.hosts: ["https://localhost:9200"] . Add um S  em httpS.
+
+
+## 9
+CRIACAO DA API KEY - heartbeat
+
+Solucao: http://192.168.0.80:5601/app/management/security/api_keys/
+
+```
+root@elk:/home/# heartbeat setup
+Exiting: couldn't connect to any of the configured Elasticsearch hosts. Errors: [error connecting to Elasticsearch at https://localhost:9200: 401 Unauthorized: {"error":{"root_cause":[{"type":"security_exception","reason":"unable to authenticate user [elastic] for REST request [/]","header":{"WWW-Authenticate":["Basic realm=\"security\" charset=\"UTF-8\"","Bearer realm=\"security\"","ApiKey"]}}],"type":"security_exception","reason":"unable to authenticate user [elastic] for REST request [/]","header":{"WWW-Authenticate":["Basic realm=\"security\" charset=\"UTF-8\"","Bearer realm=\"security\"","ApiKey"]}},"status":401}]
+```
