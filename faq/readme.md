@@ -184,3 +184,10 @@ ou
 
 ``` curl --cacert http_ca.crt --insecure -u elastic https://localhost:9200 ```
 
+ou ```-I```
+
+``` curl --insecure -I -u elastic:<senha> https://localhost:9200 ```
+
+ou
+
+``` curl --insecure -u elastic:<senha> https://localhost:9200 ```
