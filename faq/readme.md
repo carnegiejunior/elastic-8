@@ -176,7 +176,7 @@ sudo sysctl -w vm.max_map_count=262144
 ``` curl: (60) schannel: CertGetCertificateChain trust error CERT_TRUST_REVOCATION_STATUS_UNKNOWN ```
 
 
-Solucao 1 : colocar o parametro --insecure ou -k APOS o certificado.
+Solucao 1 : colocar o parametro ```--insecure``` ou ```-k``` APOS o certificado.
 
 ``` curl --cacert http_ca.crt -k -u elastic https://localhost:9200 ```
 
