@@ -202,3 +202,15 @@ C:\Windows\system32> wsl
 
 sudo sysctl -w vm.max_map_count=262144
 ```
+
+## 14
+As vezes é necessario colocar na configuração do yml o  ```ssl.verification_mode: none```
+
+Exemlplo
+```
+output.elasticsearch:
+  hosts: ["https://myurl:443/elastic"]
+  ssl.verification_mode: none
+  proxy_url: http://myproxy:8080
+  ...
+```
