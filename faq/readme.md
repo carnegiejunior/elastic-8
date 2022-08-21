@@ -157,3 +157,17 @@ Solucao: editar o arquivo :
 
 e adicionar o parametro na ultima linha 
 ```setup.ilm.overwrite: true```
+
+## 11 
+
+``` ERROR: [1] bootstrap checks failed. You must address the points described in the following [1] lines before starting Elasticsearch. ```
+
+Docker Desktop ou rancher desktop com WSL on Windows
+
+Faca a mudanca no ```vm.max_map_count``` via wsl
+
+```
+wsl
+
+sudo sysctl -w vm.max_map_count=262144
+```
