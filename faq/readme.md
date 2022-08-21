@@ -191,3 +191,14 @@ ou ```-I```
 ou
 
 ``` curl --insecure -u elastic:<senha> https://localhost:9200 ```
+
+## 13
+
+Modificações necessario pra instalar o elasticSearch no Windows
+Abra o Power Shell como Administrador e faca os comandos
+
+```
+C:\Windows\system32> wsl
+
+sudo sysctl -w vm.max_map_count=262144
+```
