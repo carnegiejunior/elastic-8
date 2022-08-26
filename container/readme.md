@@ -27,11 +27,13 @@ https://ubuntu.com/tutorials/running-a-container-with-the-docker-workflow-in-mul
 
 ``` https://docs.docker.com/engine/reference/commandline/ps/ ```
 
-#### Show disk usage by container
+* Show disk usage by container
 
 ``` docker ps -s ```
 
-----
-publish and expose
- docker run -d --publish=80 busybox top
- docker run -d --expose=8080 busybox top
+
+* publish and expose
+ 
+```docker run -d --publish=80 busybox top```
+ 
+```docker run -d --expose=8080 busybox top```
