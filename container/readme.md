@@ -22,3 +22,16 @@ npm install elastic-apm-node --save
 https://ubuntu.com/tutorials/running-a-container-with-the-docker-workflow-in-multipass#1-overview
 
 -----
+
+### docker ps
+
+``` https://docs.docker.com/engine/reference/commandline/ps/ ```
+
+#### Show disk usage by container
+
+``` docker ps -s ```
+
+----
+publish and expose
+ docker run -d --publish=80 busybox top
+ docker run -d --expose=8080 busybox top
