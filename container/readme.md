@@ -10,10 +10,15 @@ sudo dpkg -i elastic-agent-8.2.3-amd64.deb
 ----
 
 docker container start -a es-01
+
 docker container start -a kib-01
 
 ----
 
 npm install elastic-apm-node --save
+
+-----
+
+https://ubuntu.com/tutorials/running-a-container-with-the-docker-workflow-in-multipass#1-overview
 
 -----
