@@ -1,4 +1,14 @@
+SE for no Windows
+```https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html```
 
+* Windows with Docker Desktop WSL 2 backendedit
+Precisa setar os parametro  vm.max_map_count 
+
+```
+wsl -d docker-desktop
+
+sysctl -w vm.max_map_count=262144
+```
 
 docker exec -u root -ti e826db00b37c /bin/bash
 
@@ -37,3 +47,7 @@ https://ubuntu.com/tutorials/running-a-container-with-the-docker-workflow-in-mul
 ```docker run -d --publish=80 busybox top```
  
 ```docker run -d --expose=8080 busybox top```
+
+* docker stats
+
+``` docker stats ```
