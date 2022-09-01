@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-simoes
+  creationTimestamp: null
+  labels:
+    run: nginx-simoes
+  namespace: elastic
+spec:
+  containers:
+  - image: nginx
+    name: nginx-yaml
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Never
+  replicas: 2
+status: {}
