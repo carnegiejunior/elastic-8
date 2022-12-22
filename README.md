@@ -20,3 +20,10 @@ ElasticCC: Getting Started With Elastic APM
 ```https://github.com/hgmauri```
 
 ```https://henriquemauri.net/```
+
+
+## DOCUMENTAÇÕES
+
+> https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-date-format.html
+
+> https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping-params.html
