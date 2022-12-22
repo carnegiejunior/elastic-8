@@ -34,3 +34,9 @@ ElasticCC: Getting Started With Elastic APM
 * https://grokdebug.herokuapp.com/
 
 * https://grokdebugger.com/
+
+## LOGSTASH PATTERNS
+
+* https://github.com/hpcugent/logstash-patterns/blob/master/files/grok-patterns
+
+* https://discuss.elastic.co/t/what-is-greedydata/122078
