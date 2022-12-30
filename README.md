@@ -78,3 +78,10 @@ http://localhost:5601/app/dev_tools#/grokdebugger
 
 (?<TIMESTAMP_ISO8601>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3}) (?<level>[^ ]*)\s+\[(?<method>.*?)\] \((?<thread>.*?)\) (?<message>.*)$
 ```
+
+```
+2022-01-29 11:33:21,565 INFO  [stdout] (com.microsoft.modelcore. [ REINF INTERNAL PROCESSOR ]) Script recuperacao TEUL 'sql/enviar-email.sql': 0 linhas.
+
+(?:%{TIMESTAMP_ISO8601:data}) (?:%{LOGLEVEL:level})\s+\[(?<method>.*?)\] \((?<thread>.*?)\) (?<message>.*)$
+
+```
