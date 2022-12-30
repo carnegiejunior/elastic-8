@@ -42,3 +42,11 @@ ElasticCC: Getting Started With Elastic APM
 * https://github.com/hpcugent/logstash-patterns/blob/master/files/grok-patterns
 
 * https://discuss.elastic.co/t/what-is-greedydata/122078
+
+## DOCUMENTACOES
+
+* https://frednotes.wordpress.com/2021/08/25/wildfly-elastic/
+
+> Using Grok with Elasticsearch to add structure to your data
+
+* https://alexmarquardt.com/using-grok-with-elasticsearch-to-add-structure-to-your-data/
