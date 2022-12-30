@@ -50,3 +50,6 @@ ElasticCC: Getting Started With Elastic APM
 > Using Grok with Elasticsearch to add structure to your data
 
 * https://alexmarquardt.com/using-grok-with-elasticsearch-to-add-structure-to-your-data/
+
+> Common Logstash Use cases with GROK, JSON and Mutate filters.
+* https://itnext.io/common-logstash-use-cases-with-grok-json-and-mutate-filters-elk-logstash-in-docker-filebeat-871ed58c7651
