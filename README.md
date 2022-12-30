@@ -61,7 +61,7 @@ http://localhost:5601/app/dev_tools#/grokdebugger
 
 ``` Grok Pattern
 
-2722-12-29 03:02:19,305 ERROR [stderr] (default task-2396) Caused by: br.com.microsoft.jape.PersistenceException: Projeto já concluído. Não pode ser.
+2001-12-29 03:02:19,305 ERROR [stderr] (default task-345678) Caused by: br.com.microsoft.jape.PersistenceException: Make Your Choice.
 
 (?:%{TIMESTAMP_ISO8601:data}) (?:%{LOGLEVEL:level}) \[(%{WORD:method})\] \(%{WORD:method2)\) (?<message>.*)$
 
@@ -74,13 +74,13 @@ http://localhost:5601/app/dev_tools#/grokdebugger
 ```
 
 ```
-2022-12-29 03:02:19,305 ERROR [stderr] (default task-7277) Caused by: com.apple.jape.PersistenceException: Projeto já concluído.
+2002-12-29 03:02:19,305 ERROR [stderr] (default task-7277) Caused by: com.apple.jape.PersistenceException: Projeto já concluído.
 
 (?<TIMESTAMP_ISO8601>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3}) (?<level>[^ ]*)\s+\[(?<method>.*?)\] \((?<thread>.*?)\) (?<message>.*)$
 ```
 
 ```
-2022-01-29 11:33:21,565 INFO  [stdout] (com.microsoft.modelcore [ SEUL INTERNAL PROCESSOR ]) Script recuperacao SEUL 'sql/enviar-email-tambau.sql': 0 linhas.
+2002-01-29 11:33:21,565 INFO  [stdout] (com.microsoft.modelcore [ SEUL INTERNAL PROCESSOR ]) Script recuperacao SEUL 'sql/enviar-email-tambau.sql': 0 linhas.
 
 (?:%{TIMESTAMP_ISO8601:data}) (?:%{LOGLEVEL:level})\s+\[(?<method>.*?)\] \((?<thread>.*?)\) (?<message>.*)$
 
