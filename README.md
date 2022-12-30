@@ -65,3 +65,6 @@ When you're done, press Escape to stop editing.
 ```
   
 
+```
+(?:%{TIMESTAMP_ISO8601:data}) (?:%{LOGLEVEL:level}) \[(%{WORD:method})\] \(%{WORD:method2)\) (?<message>.*)$
+```
