@@ -57,6 +57,8 @@ ElasticCC: Getting Started With Elastic APM
 
 ## GROK PATTERNES
 
+http://localhost:5601/app/dev_tools#/grokdebugger
+
 ``` Grok Pattern
 
 2722-12-29 03:02:19,305 ERROR [stderr] (default task-2396) Caused by: br.com.microsoft.jape.PersistenceException: Projeto já concluído. Não pode ser.
