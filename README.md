@@ -64,8 +64,15 @@ ElasticCC: Getting Started With Elastic APM
 (?:%{TIMESTAMP_ISO8601:data}) (?:%{LOGLEVEL:level}) \[(%{WORD:method})\] \(%{WORD:method2)\) (?<message>.*)$
 
 ```
- a  asdada
 
 ```
+
 (?:%{TIMESTAMP_ISO8601:data}) (?:%{LOGLEVEL:level}) \[(%{WORD:method})\] \(%{WORD:method2)\) (?<message>.*)$
+
+```
+
+```
+2022-12-29 03:02:19,305 ERROR [stderr] (default task-7277) Caused by: com.apple.jape.PersistenceException: Projeto já concluído.
+
+(?<TIMESTAMP_ISO8601>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3}) (?<level>[^ ]*)\s+\[(?<method>.*?)\] \((?<thread>.*?)\) (?<message>.*)$
 ```
