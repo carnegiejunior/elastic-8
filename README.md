@@ -53,3 +53,15 @@ ElasticCC: Getting Started With Elastic APM
 
 > Common Logstash Use cases with GROK, JSON and Mutate filters.
 * https://itnext.io/common-logstash-use-cases-with-grok-json-and-mutate-filters-elk-logstash-in-docker-filebeat-871ed58c7651
+
+
+## GROK PATTERNES
+``` Grok Pattern
+(?:%{TIMESTAMP_ISO8601:data}) (?:%{LOGLEVEL:level}) \[(%{WORD:method})\] \(%{WORD:method2)\) (?<message>.*)$
+
+Press Enter to start editing.
+
+When you're done, press Escape to stop editing.
+```
+  
+
