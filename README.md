@@ -45,6 +45,8 @@ ElasticCC: Getting Started With Elastic APM
 
 * https://grokdebugger.com/patterns/grok-patterns.txt
 
+* https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.0/html/configuration_guide/logging_with_jboss_eap
+
 ## DOCUMENTACOES
 
 * https://frednotes.wordpress.com/2021/08/25/wildfly-elastic/
