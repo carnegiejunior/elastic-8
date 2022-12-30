@@ -89,3 +89,10 @@ http://localhost:5601/app/dev_tools#/grokdebugger
 (?:%{TIMESTAMP_ISO8601:data}) (?:%{LOGLEVEL:level})\s+\[(?<method>.*?)\] \((?<thread>.*?)\) (?<message>.*)$
 
 ```
+
+```
+2002-12-29 10:59:21,565 INFO  [stdout] (com.microsoft.modelcore [ INTERNAL TAMBAU ]) Script recuperacao DJTOTO 'sql/fazer-pizza-passos.sql': 7 linhas.
+
+(?:%{TIMESTAMP_ISO8601:data}) (?:%{LOGLEVEL:level})\s+\[(?<method>.*?)\] \((%{DATA:thread})\) (%{DATA:msg})$
+
+```
