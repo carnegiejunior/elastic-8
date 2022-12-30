@@ -56,14 +56,15 @@ ElasticCC: Getting Started With Elastic APM
 
 
 ## GROK PATTERNES
+
 ``` Grok Pattern
+
+2722-12-29 03:02:19,305 ERROR [stderr] (default task-2396) Caused by: br.com.microsoft.jape.PersistenceException: Projeto já concluído. Não pode ser.
+
 (?:%{TIMESTAMP_ISO8601:data}) (?:%{LOGLEVEL:level}) \[(%{WORD:method})\] \(%{WORD:method2)\) (?<message>.*)$
 
-Press Enter to start editing.
-
-When you're done, press Escape to stop editing.
 ```
-  
+ a  asdada
 
 ```
 (?:%{TIMESTAMP_ISO8601:data}) (?:%{LOGLEVEL:level}) \[(%{WORD:method})\] \(%{WORD:method2)\) (?<message>.*)$
