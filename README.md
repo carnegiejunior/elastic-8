@@ -43,6 +43,8 @@ ElasticCC: Getting Started With Elastic APM
 
 * https://discuss.elastic.co/t/what-is-greedydata/122078
 
+* https://grokdebugger.com/patterns/grok-patterns.txt
+
 ## DOCUMENTACOES
 
 * https://frednotes.wordpress.com/2021/08/25/wildfly-elastic/
